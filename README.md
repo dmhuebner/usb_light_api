@@ -23,7 +23,7 @@ GET
 ```http://127.0.0.1:5000/light/{HEX_CODE}```
 
 Example: 
-http://127.0.0.1:5000/light/ff0000
+http://127.0.0.1:5033/light/ff0000
 
 To set the light to red.
 
