@@ -5,7 +5,7 @@ from flask import jsonify
 
 app = Flask(__name__)
 
-cors = CORS(app, resources={r"/*": {"origins": ["http://localhost:4200", "https://pomodor.herokuapp.com/"]}})
+cors = CORS(app, resources={r"/*": {"origins": ["http://localhost:4200", "https://pomodor.herokuapp.com"]}})
 
 all_blink_sticks = blinkstick.find_all()
 
