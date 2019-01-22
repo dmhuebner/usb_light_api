@@ -4,12 +4,10 @@ import psutil
 bstick = blinkstick.find_first()
 
 if bstick is None:
-    print
-    "No BlinkSticks found..."
+    print("No BlinkSticks found...")
 else:
-    print
-    "Displaying CPU usage (Green = 0%, Amber = 50%, Red = 100%)"
-    "Press Ctrl+C to exit"
+    print("Displaying CPU usage (Green = 0%, Amber = 50%, Red = 100%")
+    print("Press Ctrl+C to exit")
 
     # go into a forever loop
     while True:

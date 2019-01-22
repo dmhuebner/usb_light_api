@@ -6,13 +6,15 @@ https://www.blinkstick.com/
 
 ----
 
-To run:
-
-```$: python app.py```
-
-Install dependencies:
+Install project dependencies:
 
 ```$: pip install -r requirements.txt```
+
+---
+
+To run the API:
+
+```$: python app.py```
 
 To change the color of the blinkstick light:
 
@@ -23,4 +25,15 @@ GET
 Example: 
 http://127.0.0.1:5000/light/ff0000
 
-To set the light red.
+To set the light to red.
+
+---
+
+To run the CPU load monitor:
+
+```$: python cpu.py```
+
+The blinkstick LED will light up dynamically based on CPU load. The lights move from green to shades of yellow and orange to red.
+
+---
+
