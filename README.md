@@ -6,7 +6,13 @@ https://www.blinkstick.com/
 
 ----
 
-Install project dependencies:
+##### Install project dependencies:
+
+libusb is required so the API can communicate with a USB device
+
+```$: brew install libusb```
+
+Install package dependencies
 
 ```$: pip install -r requirements.txt```
 
